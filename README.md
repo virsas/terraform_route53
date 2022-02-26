@@ -20,7 +20,7 @@ variable "example_org" { default = "example.org" }
 ######################
 # Route 53 zones
 ######################
-module "virsas_com_route53" {
+module "example_org_route53" {
   source   = "github.com/virsas/tfmod_route53"
   name     = var.example_org
 }
