@@ -1,4 +1,4 @@
-# tfmod_route53
+# terraform_route53
 
 Terraform module to create Route53 zones
 
@@ -21,7 +21,7 @@ variable "example_org" { default = "example.org" }
 # Route 53 zones
 ######################
 module "example_org_route53" {
-  source   = "github.com/virsas/tfmod_route53"
+  source   = "github.com/virsas/terraform_route53"
   name     = var.example_org
 }
 ```
