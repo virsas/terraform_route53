@@ -21,7 +21,7 @@ variable "example_org" { default = "example.org" }
 # Route 53 zones
 ######################
 module "example_org_route53" {
-  source   = "github.com/virsas/terraform_route53"
+  source   = "git::https://github.com/virsas/terraform_route53.git?ref=v1.0.0"
   name     = var.example_org
 }
 ```
